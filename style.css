@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* NAV BAR RULES */
 header{
     background-color: #ff6900;
 }
@@ -43,4 +45,13 @@ nav div.container{
 
 .category, .icons, .brand{
     padding: 10px 0;
+}
+
+/* MAIN RULES */
+.row{
+    width: 100%;
+}
+
+.product-container{
+    width: calc(100% / 3 - 20px);
 }
