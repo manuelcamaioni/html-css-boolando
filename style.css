@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    height: 50px;
+    background-color: #ff6900;
+}
