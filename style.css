@@ -8,3 +8,14 @@ header{
     height: 50px;
     background-color: #ff6900;
 }
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
