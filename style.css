@@ -23,8 +23,12 @@ nav div.container{
     justify-content: space-between;
 }
 
+.brand{
+    width: 20%;
+}
+
 .brand img{
-    width: 150px;
+    width: 100%;
 }
 
 .icons img{
@@ -50,8 +54,31 @@ nav div.container{
 /* MAIN RULES */
 .row{
     width: 100%;
+    justify-content: space-between;
+    padding: 2rem 0 1rem;
 }
 
 .product-container{
     width: calc(100% / 3 - 20px);
+    border: 1px solid black;
+}
+
+.product-container img{
+    width: 100%
+}
+
+.description-box :nth-child(1), .description-box :nth-child(2){
+    display: block;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.text-red{
+    color: red;
+}
+
+.text-gray{
+    color: gray;
 }
