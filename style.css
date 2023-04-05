@@ -8,6 +8,8 @@
 /* NAV BAR RULES */
 header{
     background-color: #ff6900;
+    position: fixed;
+    z-index: 5;
 }
 
 .flex{
