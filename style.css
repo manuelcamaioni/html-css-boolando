@@ -95,3 +95,42 @@ nav div.container{
 .model-container:hover :nth-child(2){
         display: block;
 }
+
+.model-container{
+    position: relative;
+}
+
+.favorite{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+
+    font-size: 1.2rem;
+    padding: 6px 12px;
+    border-radius: 50%;
+}
+
+.favorite:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+.discount{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+
+    background-color: rgb(197, 44, 44);
+    color: white;
+    padding: 2px 10px;
+}
+
+.eco-label{
+    position: absolute;
+    left: 15%;
+    bottom: 10%;
+
+    background-color: #2cad2a;
+    color: white;
+    padding: 2px 10px;
+}
