@@ -17,7 +17,6 @@ main{
     padding-top: 60px;
 }
 
-
 .flex{
     display: flex;
 }
@@ -100,7 +99,7 @@ nav div.container{
     display: none;
 }
 
-.model-container:hover :nth-child(2){
+.model-container:hover .alternative-image{
         display: inline-block;
 }
 
