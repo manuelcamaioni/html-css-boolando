@@ -65,6 +65,7 @@ nav div.container{
 
 .product-container img{
     width: 100%
+    
 }
 
 .description-box :nth-child(1), .description-box :nth-child(2){
@@ -81,4 +82,16 @@ nav div.container{
 
 .text-gray{
     color: gray;
+}
+
+.alternative-image{
+    display: none;
+}
+
+.model-container:hover :nth-child(1){
+    display: none;
+}
+
+.model-container:hover :nth-child(2){
+        display: block;
 }
