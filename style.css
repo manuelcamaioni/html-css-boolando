@@ -8,9 +8,15 @@
 /* NAV BAR RULES */
 header{
     background-color: #ff6900;
+    width: 100%;
     position: fixed;
     z-index: 5;
 }
+
+main{
+    padding-top: 60px;
+}
+
 
 .flex{
     display: flex;
