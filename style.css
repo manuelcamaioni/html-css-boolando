@@ -5,7 +5,6 @@
 }
 
 header{
-    height: 50px;
     background-color: #ff6900;
 }
 
@@ -15,7 +14,40 @@ header{
 
 .container{
     width: 80%;
-    border: 2px solid black;
     margin: 0 auto;
 }
 
+nav div.container{
+    justify-content: space-between;
+}
+
+.brand img{
+    width: 150px;
+}
+
+.icons{
+    align-items: center;
+}
+
+.icons img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+}
+
+.category{
+    align-items: center;
+}
+
+.category, .icons{
+    column-gap: 10px;
+}
+
+.category a{
+    color: white;
+    text-decoration: none;
+}
+
+.category, .icons, .brand{
+    padding: 10px 0;
+}
