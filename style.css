@@ -5,6 +5,11 @@
 }
 
 /* NAV BAR RULES */
+
+body{
+    min-width: 700px;
+}
+
 header{
     background-color: #ff6900;
     width: 100%;
