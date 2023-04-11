@@ -180,7 +180,6 @@ footer > .container{
     padding-bottom: 20px;
 }
 
-
 ul{
     list-style-type: none;
     display: flex;
@@ -188,7 +187,7 @@ ul{
 }
 
 .footer-social > ul{
-    column-gap: 0;
+    column-gap: 0.5em;
     padding-top: 10px;
 }
 
@@ -199,4 +198,5 @@ ul{
 .footer-social > ul img{
     width: 2rem;
     height: 2rem;
+    filter: brightness(0) invert(1);
 }
